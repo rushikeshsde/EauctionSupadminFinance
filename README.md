@@ -1,9 +1,9 @@
-# eAuctionMarket – Admin Portal
+# eAuctionMarket – Admin Portals
 
 React + TypeScript (Vite) website for the two back-office accounts. Each one signs in on the same
 login page and sees only its own pages:
 
-| Account | Default login | Pages |
+| Account | Default login | Pages | 
 |---|---|---|
 | Super admin (`SUPER_ADMIN`) | `superadmin` / `superadmin123` | **Mill Requests**: approve or reject newly registered mills (all registration details shown; a red badge counts pending ones). **Tender Reports**: the bulletin of mill tenders (mill, district, state, grade, season, basic rate, open/close dates) that traders, committee members and mill admins see in their apps |
 | Finance (`FINANCE`) | `finance` / `finance123` | **Wallets**: every trader and mill admin (with mill / firm), their balance, statement, and **Add credits**. **Credit History**: every credit Finance has added |
